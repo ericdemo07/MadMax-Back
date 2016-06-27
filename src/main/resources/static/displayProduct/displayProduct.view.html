@@ -1,0 +1,23 @@
+<div class="container-fluid">
+	<div class="row border top-image-block">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">Image scroll will come here</div>
+		<div class="col-md-3">
+			<div ui-view="check"></div>
+		</div>
+	</div>
+	<div class="row bg-light1">
+		<div class="col-md-9 border">
+			<div ui-view="specs"></div>
+		</div>
+		<div class="col-md-3 border">
+			<ul class="list-unstyled">
+				<li class ng-repeat="video in videos | limitTo:quantity"">
+					<div>
+						<iframe width="300" height="220" src={{video}}> </iframe>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

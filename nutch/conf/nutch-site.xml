@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+    	<name>storage.data.store.class</name>
+    	<value>org.apache.gora.mongodb.store.MongoStore</value>
+    	<description>Default class for storing data</description>
+  	</property>
+  	<property>
+        <name>fs.file.impl</name>
+        <value>com.conga.services.hadoop.patch.HADOOP_7682.WinLocalFileSystem</value>
+        <description>Enables patch for issue HADOOP-7682 on Windows</description>
+    </property>
+</configuration>

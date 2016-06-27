@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="MadMax-Back">
+		<property name="context-root" value="demo"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.7.RELEASE/2ac141c925462c52186db8ef2caa0b3335f41a8/spring-boot-starter-web-1.2.7.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-ws/1.2.7.RELEASE/f4c7e821b87eea92703d871694803119d60ed0da/spring-boot-starter-ws-1.2.7.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.6/9d3a47307466b28632bf35f8972ae9d703879416/lombok-1.16.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.2/64238922c4006c3d0a9951c4c03983ecc6a1e1a0/jsoup-1.8.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.google.guava/guava/19.0-rc2/93e17f60bc524c2610b41c494bb829c11ca89436/guava-19.0-rc2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.nutch/nutch/2.3/768b39705596e4f789e994b41d8e787cf9886435/nutch-2.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.0.4/f9caed188f03990204f3381d01d44f70fc93acec/mongo-java-driver-3.0.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.2.7.RELEASE/98229baad7ab207a98c2cce5987b0d34b44dabe7/spring-boot-starter-tomcat-1.2.7.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.6/3e63a25de4065697b185f523ed5e020c0db3ff0/jackson-databind-2.4.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.1.3.Final/334d46a93cf095160ce06d8382594b904933c808/hibernate-validator-5.1.3.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.8.RELEASE/d0ac54adf8a79e652a019a9cba8fdb29ecbb2131/spring-web-4.1.8.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.8.RELEASE/6a7904ceab9967a3b71b7b8543dd087765b17711/spring-webmvc-4.1.8.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework/spring-jms/4.1.8.RELEASE/5d85a53bfd3a050e54ca7e8f8bc27aeddf43c5fc/spring-jms-4.1.8.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.1.8.RELEASE/b32194bc9026d515c7520b404dfefb61d0777817/spring-oxm-4.1.8.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-core/2.2.2.RELEASE/209d6cb63ae39e1accb701c8328f5cb0af69cde8/spring-ws-core-2.2.2.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-support/2.2.2.RELEASE/bee5fc093a5eeebc2d0c06f2091f03dcd591c312/spring-ws-support-2.2.2.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.ibm.icu/icu4j/4.0.1/6362db7a2556bb58a04e991029196e2aad632d4/icu4j-4.0.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.tika/tika-core/1.6/fbccbe81436fc61dbe81d2a8d83c8e50b49d5771/tika-core-1.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/cd49678784c46aa8789c060538e0154013bb421b/juniversalchardet-1.0.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/xerces/xercesImpl/2.9.1/7bc7e49ddfe4fb5f193ed37ecc96c12292c8ceb6/xercesImpl-2.9.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/xerces/xmlParserAPIs/2.6.2/65acede1e5305bd2b92213d7b5761328c6f4fd9/xmlParserAPIs-2.6.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/xalan/serializer/2.7.1/4b4b18df434451249bb65a63f2fb69e215a6a020/serializer-2.7.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/oro/oro/2.0.8/5592374f834645c4ae250f4c9fbb314c9369d698/oro-2.0.8.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.google.code.crawler-commons/crawler-commons/0.5/563b0f7b50cf40cc9074749ad64197a78252271b/crawler-commons-0.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-client/6.1.26/74bbbab933175d04c8c31a8bbe29fa6cee82314c/jetty-client-6.1.26.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.28/dd5f6dea56f0227f1b4e7d85ae6ad8041886fcad/tomcat-embed-core-8.0.28.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.28/12ff86316ae8835b410461401ce8a77d040b0c5f/tomcat-embed-el-8.0.28.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.28/315e9c3d6d93fcb482eea89ee23c9af9fd1cc4b5/tomcat-embed-logging-juli-8.0.28.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.28/61dfc07af876f1fa9ee9f30112babf30c721a543/tomcat-embed-websocket-8.0.28.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/d6a66c7a5f01cf500377bd669507a08cfeba882a/jackson-annotations-2.4.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.6/2a1f6edb86b8c6d29f37f6a807295d4e5c279707/jackson-core-2.4.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/434efef28c81162b17c540e634cffa3bd9b09b4c/classmate-1.0.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.1.8.RELEASE/601fb856fb0dd43e99488740a9955951fc1dec6b/spring-messaging-4.1.8.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.8.RELEASE/e4dd537d67f92ee7cb82d5cfd9dd86269cc78481/spring-tx-4.1.8.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.springframework.ws/spring-xml/2.2.2.RELEASE/940f13a04ea9630e817bc8d0034734bf4579dcc4/spring-xml-2.2.2.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/e4ca30a6a3a075053a61c6fc850d2432dc012ba7/httpclient-4.2.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-sslengine/6.1.26/60367999cee49a3b09fa86bdcb52310b6c896014/jetty-sslengine-6.1.26.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.mortbay.jetty/jetty/6.1.26/2f546e289fddd5b1fab1d4199fbb6e9ef43ee4b0/jetty-6.1.26.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-util/6.1.26/e5642fe0399814e1687d55a3862aa5a3417226a9/jetty-util-6.1.26.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-util5/6.1.26/6e8a0158fb11ba7cb3ec906fd2ff36c60f2eafdb/jetty-util5-6.1.26.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/472f0f5f8dba5d1962cb9d7739feed739a31c30d/httpcore-4.2.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/E:/ToolBox/gradle-2.7-all/gradle-2.7/caches/modules-2/files-2.1/org.mortbay.jetty/servlet-api/2.5-20081211/22bff70037e1e6fa7e6413149489552ee2064702/servlet-api-2.5-20081211.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
